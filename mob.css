@@ -1,0 +1,85 @@
+@media handheld {
+
+	html, body {
+		font: 12px/15px sans-serif;
+		background: grey;
+		padding: 3px;
+		color: white;
+		margin: 0;
+		max-width: 50%;
+		}
+	#sidebar, #footer {
+		display: none;
+		}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		border-color: black;
+		}
+	#content img { 
+		max-width: 25px;
+		}
+	.center {
+		width: 100% !important;
+		text-align: center;
+		}
+	a:link, a:visited {
+		text-decoration: underline;
+		color: #0000CC;
+		}
+	a:hover, a:active {
+		text-decoration: underline;
+		color: #660066;
+		}
+	.logo{
+		width: 20px;
+	}
+	.lo img{
+		width: 20px;
+	}
+	.wdcb{
+		max-width: 20%;
+	}
+	
+}
+/* iPhone-specific styles */
+@media only screen and (max-device-width: 600px) { 
+
+	html {
+		-webkit-text-size-adjust: none;
+		}
+	.logo{
+		margin-left: 76vw;
+		margin-top: -8vh;
+		margin-bottom: 2vh;
+		width: 20%;
+
+	}
+	img{
+		width: 540px;
+	}
+	.lft{
+		margin-left: 10vw;
+		width: 60vw;
+		
+   box-shadow: 16px 16px 10px rgba(0,0,0,0.9);
+	}
+	h1,.he{
+		color:white;
+		letter-spacing: 0.6vw;
+		font-style: italic;
+		background: black;
+		font-weight: 2px;
+	}
+	.rt{
+		display: none;
+	}
+	.tag{
+		margin-bottom: 9vh;
+	}
+	.container{
+		background: #f2f2f2;
+	}
+	.wd{
+		 border:4px solid black;
+	}
+}

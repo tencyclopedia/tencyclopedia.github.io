@@ -1,0 +1,802 @@
+<html>
+<head >
+<title>Top 10 Bikes Under 4 Lakhs 2016</title>
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="hover.css">
+<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="pg.css" media="only screen and (min-width:601px)">
+<link rel="stylesheet" href="mob.css" type="text/css" media="only screen and (max-width:600px)" />
+<link rel="stylesheet" href="boot.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="star.js"></script>
+<script src="load.js"></script>
+<script src="dialog.js"></script>
+<script src="nav.js"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {      
+    var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+
+    if (isMobile.matches) {
+        //Conditional script here
+        //alert("mobile");
+        $('.logo').attr('data-spy','affix-top');
+        $('.he').attr('data-spy','affix-top');
+        $('.blk').attr('data-spy','affix-top');
+    }
+ });
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  
+    $("li").click(function(){
+    
+      $(this).addClass("active");
+      $("li").not(this).removeClass("active");
+    });
+  });
+  </script>
+  <script >
+$(document).ready(function() {
+              
+                var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"],a[href$=".jpe"]');             
+
+                imageLinks.hover(function(e) {
+                $(this).children('img').toggleClass('expanded');
+              imageLinks.click(function(e) {
+                  e.preventDefault();
+              });
+               
+                /*$(this).next().next().children('img').toggleClass('expanded');
+                  .se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+ /* background: url(img/cars/wheels.gif) center no-repeat #010101;*/
+ /* background-color: #010101;
+}-->
+
+                $(this).prev().prev().children('img').toggleClass('expanded');*/
+                //});
+            });
+      });
+  </script>
+  <style>
+b{
+  color: black;
+}
+.wdck,.wdcbk {
+  cursor: zoom-in;
+  border:3px solid grey;
+}
+.expanded {
+  border:25px solid silver;
+  cursor: zoom-out;
+ display:block;
+  position: fixed;
+    top: 10%;
+    left: 43%;
+    width: 690px;
+    height: 440px;
+    z-index:99999;
+    -moz-opacity: 0.7;
+    opacity:1;
+    filter: alpha(opacity=70);
+}
+
+</style>
+<style>
+/*.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+  background: url(img/cars/wheels.gif) center no-repeat #010101;
+  background-color: #010101;
+}*/
+
+@media handheld {
+
+  html, body {
+    font: 12px/15px sans-serif;
+    background: #fff;
+    padding: 3px;
+    color: #000;
+    margin: 0;
+
+    }
+  #sidebar, #footer {
+    display: none;
+    }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    }
+  #content img { 
+    max-width: 25px;
+    }
+  .center {
+    width: 100% !important;
+    text-align: center;
+    }
+  a:link, a:visited {
+    text-decoration: underline;
+    color: #0000CC;
+    }
+  a:hover, a:active {
+    text-decoration: underline;
+    color: #660066;
+    }
+  .logo{
+    width: 20px;
+  }
+  .lo img{
+    width: 20px;
+  }
+  .wdcb{
+    max-width: 20%;
+  }
+  img{
+    display: none;
+  }
+    .wdc{
+    display: none;
+  }
+  .hed{
+    display: none;
+  }
+  nav{
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-device-width: 600px) { 
+
+  html {
+    -webkit-text-size-adjust: none;
+    }
+     .wdcbk{
+    max-width: 100%;
+    /*margin-left: 6vw;*/
+  }
+  .wdck{
+    display: none;
+  }
+  .hed{
+    display: none;
+  }
+  nav{
+    margin-bottom: 5vh;
+  }
+  .logo{
+    display: block;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+
+  }
+  .he{
+    margin-top: -7vh;
+  }
+  .wrapper{
+    background-color: silver;
+  }
+  .se-pre-con{
+    display: none;
+  }
+}
+
+
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+  background: url(img/load.gif) center no-repeat #fff;
+  background-color: #1c2126;
+}
+
+.wdcbk,.wdcb {
+  cursor: zoom-in;
+  border:3px solid grey;
+}
+.expanded {
+  border:25px solid silver;
+  cursor: zoom-out;
+ display:block;
+  position: fixed;
+    top: 10%;
+    left: 43%;
+    width: 690px;
+    height: 440px;
+    z-index:99999;
+    -moz-opacity: 0.7;
+    opacity:1;
+    filter: alpha(opacity=70);
+}
+
+</style>
+<a href="index.html"><img data-spy="affix"   src="img\logo\logo7.png" class="logo"> </a>  <h1 class="he" data-spy="affix" >&nbsp;&nbsp;&nbsp;tencyclopedia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+
+
+
+ 
+
+ <nav class="navbar navbar-inverse navbar-right blk" data-spy="affix">
+
+  <div class="container-fluid " >
+    <div class="navbar-header">
+    
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul  class="nav navbar-nav navbar-right"  >
+      <li class="home "><a href="index.html">Home</a></li> 
+     <li><a   class="about" href="#About" >About</a></li>
+      <li><a   class="contact" href="#Contact" >Contact Us</a></li>
+      <li><a data-toggle="modal" data-target="#myModal" href="#">Newsletter</a></li> 
+
+      
+    </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+
+
+
+</head>
+
+<body  >
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=141052146272729";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<!--<div  data-spy="affix" class="rt"  >
+
+<img src="img\subblack.png" width="350px" height="60px" data-toggle="modal" data-target="#myModal">
+          
+</div>
+-->
+<div class="container ">
+
+<div class="dv">
+<div><font size="6vw">&nbsp;Top 10 Bikes Under 4 Lakhs - March 2016</font> </div>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >1. Kawasaki Ninja 300 - Ex-showroom price : 3.65 Lakhs</h3>
+
+<img src="img\4l\b1.jpg"  class="wdcbk" >
+
+<a href="img\4l\b1.jpg" ><img src="img\4l\b1.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >296 cc</th><th>4-stroke, Parallel Twin (Liquid cooled)</th><th>Fuel Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>38.5 BHP @ 11000 rpm</th><th>27 NM @ 10000 rpm</th><th>6-speed, Return</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>140 mm</th><th>172 kg</th><th>17 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>25 kmpl</th><th>Single 290 mm petal disc</th><th>Single 220 mm petal disc</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>37 mm telescopic fork</th><th>Bottom-Link Uni-Trak</th><th>110/70-17 M/C 54S[Front],140/70-17 M/C 66S[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >2. Yamaha YZF R3 - Ex-showroom price : 3.25 Lakhs</h3>
+
+<img src="img\4l\b2.jpg"  class="wdcbk" >
+
+<a href="img\4l\b2.jpg" ><img src="img\4l\b2.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >321 cc</th><th>2-cylinder, 4-stroke, DOHC, 4-valves (Liquid cooled)</th><th>Fuel injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>41.4 BHP @ 10750 rpm</th><th>29.6 NM @ 9000 rpm</th><th>Constant Mesh, 6-speed</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>160 mm</th><th>169 kg</th><th>14 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>22 kmpl</th><th>Hydraulic single disc, 298 mm</th><th>Hydraulic single disc, 220 mm</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>Telescopic forks</th><th>Swingarm</th><th>110/70-17M/C 54H[Front],140/70-17M/C 66H[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >3. Hyosung GT 250R - Ex-showroom price : 3 Lakhs</h3>
+
+<img src="img\4l\b3.jpg"  class="wdcbk" >
+
+<a href="img\4l\b3.jpg" ><img src="img\4l\b3.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >249 cc</th><th>4 Stroke, DOHC 8 Valve 75O V-Twin 249 CC (Oil Cooled)</th><th>Fuel Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>28 BHP @ 10000 rpm</th><th>22.07 NM @ 8000 rpm</th><th>5 Speed</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>130 mm</th><th>188 kg</th><th>17 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>30 kmpl</th><th>300 mm Hydraulic double disc brake</th><th>230 mm Hydraulic single disc brake</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>Inverted Telescopic</th><th>Progressive Linkage Hydraulic Mono shock</th><th>110/70 -17 54h[Front],150/70 -17 69h[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >4. Kawasaki Z250 - Ex-showroom price : 3.10 Lakhs</h3>
+
+<img src="img\4l\b4.jpg"  class="wdcbk" >
+
+<a href="img\4l\b4.jpg" ><img src="img\4l\b4.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th>249 cc</th><th>DOHC, 2-cylinder, 4-stroke (Liquid cooled)</th><th>Carburettor</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>31.5 BHP @ 11000 rpm</th><th>21 NM @ 10000 rpm</th><th>6-Speed, Constant Mesh Type</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>145 mm</th><th>168 kg</th><th>17 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>28 kmpl</th><th>290mm Single disc</th><th>220mm Single disc</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>37mm Hydraulic Telescopic Fork</th><th>Bottom-link Uni-Trak</th><th>110/70-17[Front],140/70-17[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >5. Benelli TNT 300 - Ex-showroom price : 2.95 Lakhs</h3>
+
+<img src="img\4l\b5.jpg"  class="wdcbk" >
+
+<a href="img\4l\b5.jpg" ><img src="img\4l\b5.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >300 cc</th><th>4-stroke, DOHC, In-line 2 cylinder (Liquid cooled)</th><th> Electronic Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>37.73 BHP @ 11500 rpm</th><th>26.5 NM @ 10000 rpm</th><th>6-speed</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>160 mm</th><th>196 kg</th><th>16 litres</th>
+  <tr><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>25 kmpl</th><th>260 mm Twin disc</th><th>240 mm Single disc</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>Benelli 41 mm upside down forks</th><th>Benelli shock 120 mm</th><th>120/70-17(Pirelli)[Front]160/60-17(Pirelli)[Rear]
+  </th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >6. KTM RC 390 (ABS) - Ex-showroom price : 2.12 Lakhs</h3>
+
+<img src="img\4l\b6.jpg"  class="wdcbk" >
+
+<a href="img\4l\b6.jpg" ><img src="img\4l\b6.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >373.2 cc</th><th>1-cylinder 4-stroke engine (Liquid cooled)</th><th>Fuel Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>43 BHP @ 9000 rpm</th><th>35 NM @ 7000 rpm</th><th>6 speed, claw shifted</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>157 mm</th><th>166 kg</th><th>9.5 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>25 kmpl</th><th>300mm Disc Brake</th><th>230mm disc brake</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>WP Suspension Up Side Down</th><th>WP Monoshock</th><th>110/70 ZR 17[Front],150/60 ZR 17[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >7. KTM Duke 390 (ABS) - Ex-showroom price  : 1.95 Lakhs</h3>
+
+<img src="img\4l\b7.jpg"  class="wdcbk" >
+
+<a href="img\4l\b7.jpg" ><img src="img\4l\b7.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >373.2 cc</th><th>1-cylinder 4-stroke engine (Liquid cooled)</th><th>Fuel injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>43 BHP @ 9500 rpm</th><th>35 NM @ 7250 rpm</th><th>6 speed, claw shifted</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>170 mm</th><th>154 kg</th><th>11 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>25 kmpl</th><th>300mm Disc brake</th><th>230mm Disc brake</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>WP 43mm upside down forks</th><th>WP Monoshock</th><th>110/70 R17[Front],150/60 R17[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >8. Honda CBR 250R (ABS) - Ex-showroom price : 1.90 Lakhs</h3>
+
+<img src="img\4l\b8.jpg"  class="wdcbk" >
+
+<a href="img\4l\b8.jpg" ><img src="img\4l\b8.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >249.6 cc</th><th>4-stroke, DOHC, SI engine (Liquid cooled)</th><th>Fuel injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>26.15 BHP @ 8500 rpm</th><th>22.9 NM @ 7000 rpm</th><th>6-Speed, Constant mesh</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>145 mm</th><th>163 kg</th><th>13 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>30 kmpl</th><th>296mm Disc</th><th>220mm Disc</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>Telescopic Fork</th><th>Spring loaded hydraulic type</th><th>110/70 17M/C[Front],140/70 17M/C[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >9. KTM RC 200 - Ex-showroom price : 1.70 Lakhs</h3>
+
+<img src="img\4l\b9.jpg"  class="wdcbk" >
+
+<a href="img\4l\b9.jpg" ><img src="img\4l\b9.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th >199.5 cc</th><th>Single-cylinder, 4-stroke (Liquid-cooled)</th><th>Fuel Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>24.65 BHP @ 10000 rpm</th><th>19.2 NM @ 8000 rpm</th><th>6-speed, claw shifted</th>
+  <tr ><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>157 mm</th><th>154 kg</th><th>9.5 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>35 kmpl </th><th>280 mm Disc brake</th><th>230 mm Disc brake</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>WP Suspension 4357 (Upside Down Forks)</th><th>WP Suspension 4618 EM (Monoshock)</th><th>110/70-17[Front],150/60-17[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+ 
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >10. Benelli TNT 25 - Ex-showroom price : 1.68 Lakhs </h3>
+
+<img src="img\4l\b10.jpg"  class="wdcbk" >
+
+<a href="img\4l\b10.jpg" ><img src="img\4l\b10.jpg" class="wdck"  ></a>
+
+
+
+<div class="bgcb">
+<div class="wrapper">
+<p>
+  <table style="width:100%; " class="psc" >
+  <tr><td>Displacement</td><td>Engine</td><td>Fuel Sysytem</td></tr>
+  <tr><th > 249 cc</th><th>Single cylinder, 4-stroke, DOHC (Liquid cooled)</th><th>Electronic Fuel Injection</th></tr>
+  <tr ><td>Max Power</td><td>Max Torque</td><td>Gearbox</td></tr>
+  <th>28.16 BHP @ 9800 rpm</th><th>21.61 NM @ 8000 rpm</th><th>6-speed</th>
+  <tr><td>Ground Clearance</td><td>Ker/Wet Weight</td><td>Fuel Tank Capacity</td></tr>
+  <th>160 mm</th><th>159 kg</th><th>17 litres</th>
+  <tr ><td>Mileage</td><td>Front Brake</td><td>Rear Brake</td></tr>
+  <th>27 kmpl</th><th>385mm Petal Disc</th><th>318mm Petal Disc</th>
+  <tr ><td>Front Suspension</td><td>Rear Suspension</td><td>Tyre</td></tr>
+  <th>Inverted Telescopic Forks</th><th>Mono Shock Absorber</th><th>110/70 R17,54S(MRF)[Front],150/60 R17,66S(MRF)[Rear]</th>
+  </table>
+
+</p>
+
+ 
+</div>
+</div>
+ 
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+
+  
+
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+
+<div data-colorscheme="dark" class="fb-comments" data-href="http://localhost:8080/top10/page.html" data-width="800" data-numposts="5"></div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="se-pre-con"></div>
+</body>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color:black;" class="modal-title">Enter Your E-mail Id below to Subscribe for Newsletters every Month!!</h4>
+        </div>
+        <div class="modal-body">
+        <b>Name</b><input type="text" placeholder="Name">
+        <b> Email-id </b><input type="text" placeholder="email-id">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+</html>

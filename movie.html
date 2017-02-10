@@ -1,0 +1,869 @@
+<html>
+<head >
+<title>Now Showing Movies</title>
+<meta name="theme-color" content=#b30000>
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content=#b30000>
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content=#b30000>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="hover.css">
+<link rel="stylesheet" href="instyle.css" media="only screen and (min-width:601px)">
+<link rel="stylesheet" href="mob.css" type="text/css" media="only screen and (max-width:600px)" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="boot.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery.min.js"></script>
+<script src="load.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="dialog.js"></script>
+<script src="nav.js"></script>
+
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+   
+
+    $("li").click(function(){
+    
+      $(this).addClass("active");
+      $("li").not(this).removeClass("active");
+    });
+  });
+  </script>
+   <script >
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+  </script>
+<style >
+.wrapper{
+    margin-top: 0vh;
+  }
+  @media handheld {
+
+  html, body {
+    font: 12px/15px sans-serif;
+    background: #fff;
+    padding: 3px;
+    color: #000;
+    margin: 0;
+
+    }
+  #sidebar, #footer {
+    display: none;
+    }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    }
+  #content img { 
+    max-width: 25px;
+    }
+  .center {
+    width: 100% !important;
+    text-align: center;
+    }
+  a:link, a:visited {
+    text-decoration: underline;
+    color: #0000CC;
+    }
+  a:hover, a:active {
+    text-decoration: underline;
+    color: #660066;
+    }
+  .logo{
+    width: 20px;
+  }
+  .lo img{
+    width: 20px;
+  }
+  .wdcb{
+    max-width: 20%;
+  }
+  img{
+    display: none;
+  }
+    .wdc{
+    display: none;
+  }
+  .hed{
+    display: none;
+  }
+  nav{
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-device-width: 600px) { 
+
+  html {
+    -webkit-text-size-adjust: none;
+    }
+     .wd{
+    max-width: 100%;
+    /*margin-left: 6vw;*/
+  }
+  .cnn{
+    max-width: 25%;
+    margin-left: 2vw;
+  }
+  .wdc{
+    display: none;
+  }
+  .hed{
+    display: none;
+  }
+  nav{
+    margin-bottom: 5vh;
+  }
+  .logo{
+    display: block;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+
+  }
+  .he{
+    margin-top: -7vh;
+  }
+  .wrapper{
+    background-color: grey;
+
+
+  }
+  .ps{
+    color: black;
+  }
+  .rs{
+    width: 100%;
+  }
+}</style>
+<a href="index.html" ><img    src="img\logo\logo8.png" class="logo"> </a>  <h1 class="he" >&nbsp;&nbsp;&nbsp;tencyclopedia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+ 
+
+ <!--tab-->
+ 
+
+ <nav class="navbar navbar-inverse navbar-right blk" >
+
+  <div class="container-fluid " >
+    <div class="navbar-header">
+    
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul  class="nav navbar-nav navbar-right"  >
+      <li class="home "><a href="index.html">Home</a></li> 
+     <li><a   class="about" href="#About" >About</a></li>
+      <li><a   class="contact" href="#Contact" >Contact Us</a></li>
+      <li><a data-toggle="modal" data-target="#myModal" href="#">Newsletter</a></li> 
+
+      
+    </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+
+
+
+</head>
+
+
+
+
+
+<body  >
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=141052146272729";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--
+<div  data-spy="affix" class="rt"  >
+
+<img src="img\subblack.png" width="350px" height="60px" data-toggle="modal" data-target="#myModal">
+          
+</div>
+-->
+<div class="container ">
+
+
+<div class="dv">
+<div><font size="6vw">&nbsp;Movies - Now Showing</font> </div>
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >M.S.Dhoni - The Untold Story</h3>
+<img src="img\mov\1.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6L6XqWoS8tw" frameborder="6" allowfullscreen></iframe>
+</div>
+</div>
+<h4>The untold story of M.S.Dhoni who becomes a cricketer and captain of Team India who won both the World Cups in T20 and limited over cricket.<br>
+Genre : Biography<br>
+Director : Neeraj Pandey<br>
+Cast : Sushant Singh Rajput, Disha Patani, Kiara Advani<br>
+Runtime : 185 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+</div>
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >The Magnificent Seven</h3>
+<img src="img\mov\2.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q-RBA0xoaWU" frameborder="0" allowfullscreen></iframe>
+
+</div>
+</div>
+<h4>Desperate townspeople hire seven mercenaries to battle a ruthless industrialist in the Old West.<br>
+Genre : Action, Crime, Western<br>
+Director : Antoine Fuqua<br>
+Cast : Byung Hun Lee, Chris Pratt, Denzel Washington, Ethan Hawke, Haley Bennett, Vincent D'Onofrio<br>
+Runtime : 132 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Remo</h3>
+<img src="img\mov\3.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+
+ <iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/GEB4qrrWIgs" frameborder="6" allowfullscreen></iframe>
+
+</div>
+</div>
+<h4>Dreams come true, romantic dreams definitely come true! Watch the handsome Sivakarthikeyan nurse his romantic dreams with the gorgeous Keerthy Suresh.<br>
+Genre : Romance, Comedy<br>
+Director : Bakkiyaraj Kannan<br>
+Cast : Sivakarthikeyan, Keerthy Suresh<br>
+Runtime : 150 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Pink</h3>
+<img src="img\mov\4.jpg" class="wd">
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/AL2TShb6fFs" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div><h4>Three girls who were targeted and molested, approach a bipolar lawyer to battle and win the case against the influential men responsible for the crime.<br>
+Genre : Drama, Thriller<br>
+Director : Aniruddha Roy Chowdhury<br>
+Cast : Amitabh Bachchan, Andrea Tariang, Kirti Kulhari, Taapsee Pannu<br>
+Runtime : 136 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Sully</h3>
+<img src="img\mov\5.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/mjKEXxO2KNE" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>Captain "Sully" Sullenberger tries to save 155 of his on-board passengers by gliding his disabled plane into the Hudson River.<br>
+Genre : Drama, Biography<br>
+Director : Clint Eastwood<br>
+Cast : Aaron Eckhart, Laura Linney, Tom Hanks<br>
+Runtime : 95 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Don't Breathe</h3>
+<img src="img\mov\6.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/76yBTNDB6vU" frameborder="6" allowfullscreen></iframe>
+ 
+
+</div>
+</div><h4>A runaway teenage delinquent and her friends plan to rob the house of a blind lonely man and get away with their heist.<br>
+Genre : Horror, Thriller<br>
+Director : Fede Alvarez<br>
+Cast : Daniel Zovatto, Dylan Minnette, Emma Bercovici, Jane Levy, Stephen Lang<br>
+Runtime : 91 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Thodari</h3>
+<img src="img\mov\7.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/Gs3widGw6Tw" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div><h4>A cafeteria worker, a young girl, and a gang of hijackers come together aboard a train.?<br>
+Genre : Romance, Thriller<br>
+Director : Prabhu Solomon<br>
+Cast : Dhanush, Keerthy Suresh<br>
+Runtime : 168 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Ice Age Collision Course</h3>
+<img src="img\mov\8.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/Ohq6NmKMja8" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div><h4>Scrat's epic pursuit accidentally sets off a series of cosmic events that threaten to destroy the planet. Manny, Sid and Diego embark on a thrilling journey filled with fun, laughter and adventure, as they try to save the planet from further destruction.<br>
+Genre : Adventure, Animation, Comedy<br>
+Director : Mike Thurmeier<br>
+Cast : Denis Leary, Jennifer Lopez, John Leguizamo, Queen Latifah, Ray Romano<br>
+Runtime : 94 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+
+<h3 class="top" >Rekka</h3>
+<img src="img\mov\9.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/AcAibmLFS2k" frameborder="6" allowfullscreen></iframe>
+ 
+
+</div>
+</div>
+<h4>Rekka stars Vijay Sethupathi in the role of an advocate for the first time. The plot revolves around the unforeseen circumstances he is pushed into which ultimately leads him to kidnapping a girl.<br>
+Genre : Action<br>
+Director : Rathina Shiva <br>
+Cast : Vijay Sethupathi, Lakshmi Menon<br>
+Runtime : 140 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Parched</h3>
+<img src="img\mov\10.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/m69d-KNi2Q0" frameborder="6" allowfullscreen></iframe>
+ 
+
+</div>
+</div><h4>Four women in Gujarat talk about men, sex, and life as they struggle with their individual boundaries to face their demons and stage their own personal wars.<br>
+Genre : Drama<br>
+Director : Leena Yadav <br>
+Cast : Adil Hussain, Lehar Khan, Radhika Apte, Surveen Chawla, Tannishtha Chatterjee<br>
+Runtime : 118 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Storks</h3>
+<img src="img\mov\11.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/-m0aIyOEe60" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>Storks have moved on from delivering babies to packages. But when an order for a baby appears, the best delivery stork must scramble to fix the error by delivering the baby.<br>
+Genre : Adventure, Animation, Comedy<br>
+Director : Doug Sweetland <br>
+Cast : Andy Samberg, Jennifer Aniston, Jordan Peele, Keegan-Michael Key, Kelsey Grammer<br>
+Runtime : 86 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Within</h3>
+<img src="img\mov\12.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/KHg90WBsrGo" frameborder="6" allowfullscreen></iframe>
+ 
+
+</div>
+</div>
+<h4>A thriller centered around a widower who moves into a seemingly perfect new home with his daughter and new wife.<br>
+Genre : Horror, Thriller<br>
+Director : Phil Claydon<br>
+Cast : Blake Jenner, Erin Moriarty, Michael Vartan, Nadine Velazquez<br>
+Runtime : 88 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Aandavan Kattalai</h3>
+<img src="img\mov\13.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/PY2sEuriqLM" frameborder="0" allowfullscreen></iframe>
+
+</div>
+</div>
+
+<h4>Aandavan Kattalai talks about young people who dream of going to foreign countries, and in their desperation, use fake passports and get into trouble.<br>
+Genre : Comedy, Drama<br>
+Director : Manikandan<br>
+Cast : Vijay Sethupathi, Ritika Singh<br>
+Runtime : 152 Minutes
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Miss Peregrines Home For Preculiar Children</h3>
+<img src="img\mov\14.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/tV_IhWE4LP0" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>Sixteen-year-old Jacob follows clues that take him to a mysterious island, where he discovers the crumbling ruins of Miss Peregrine's School for Peculiar Children. As Jacob explores the abandoned bedrooms and hallways, he discovers that its former occupan.<br>
+Genre : Adventure<br>
+Director : Tim Burton<br>
+Cast : Eva Green, Asa Butterfield, Samuel L. Jackson<br>
+Runtime : 129 Minutes
+
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Devi(L)</h3>
+<img src="img\mov\15.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/gWLhgenab28" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>A man who wants a modern girl for a wife unwillingly marries a village girl. What happens when the girl is possessed by the ghost of an aspiring actress?<br>
+Genre : Horror, Comedy<br>
+Director : AL Vijay <br>
+Cast : Prabhu Deva, Tamanna Bhatia<br>
+Runtime : 125 Minutes
+
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Queen of Katwe</h3>
+<img src="img\mov\16.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/z4l3-_yub5A" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>A Ugandan girl sees her world rapidly change after being introduced to the game of chess.<br>
+Genre : Biography, Drama, Sport<br>
+Director : Mira Nair<br>
+Cast : Madina Nalwanga, David Oyelowo, Lupita Nyong'o<br>
+Runtime : 126 Minutes
+
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Mirzya</h3>
+<img src="img\mov\17.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/yo9HkpIPt2k" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<h4>Two star-crossed lovers must battle the forces which try to keep them apart at different timelines and at different world's.<br>
+Genre : Romance<br>
+Director : Rakeysh Omprakash Mehra<br>
+Cast :  Harshvardhan Kapoor, Saiyami Kher, Art Malik<br>
+Runtime : 130 Minutes
+
+
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+<div class="fx">
+<img src="img\hed.png" class="hed">
+<h3 class="top" >Meendum Oru Kadhal Kadhai</h3>
+<img src="img\mov\18.jpg" class="wd"   >
+
+<div class="bgc">
+<div class="wrapper">
+<iframe class="rs" width="560" height="315" src="https://www.youtube.com/embed/ZzHx343rFOw" frameborder="6" allowfullscreen></iframe>
+
+ 
+
+</div>
+</div>
+<br>
+<h4>Vinod, a Hindu boy falls head-over-heels in love with Ayesha, a Muslim girl, as he strives to win her heart and marry her despite all the major troubles.<br>
+Genre : Musical, Romance<br>
+Director : Mithran Jawahar<br>
+Cast : Isha Talwar, Walter Phillips<br>
+Runtime : 143 Minutes
+
+
+</h4>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="row">
+<div class=" col-md-12 container col-sm-12 col-xs-12 ">
+
+<div class="box">
+
+
+<div data-colorscheme="dark" class="fb-comments" data-href="http://localhost:8080/top10/page.html" data-width="800" data-numposts="5"></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+</body>
+<!--div class="se-pre-con"></div-->
+<form id="score" method="post" action="processbox.php">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+          <h4 class="modal-title"><font color="black">Enter Your E-mail Id below to Subscribe for Newsletters every Month!!</font></h4>
+        </div>
+        <div class="modal-body">
+           <b>Name</b><input type="text" name="name" id="nam" placeholder="Name"><br>
+         <b>Email-id</b> <input type="text" name="email" placeholder="email-id">
+        </div>
+        <div class="modal-footer">
+          <input type="submit" name="submit" class="btn btn-default" id="submitnote"></button>
+        </div>
+      </div>
+      </div></div>
+      </form>
+
+</html>

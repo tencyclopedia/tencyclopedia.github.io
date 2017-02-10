@@ -1,0 +1,950 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"hovere",
+				"hovereffect"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"submit",
+				"submitnote"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"va",
+				"validateForm"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"ct",
+				"center"
+			],
+			[
+				"hover",
+				"hovereffect"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"Ba",
+				"BASE_DIR"
+			],
+			[
+				"wdc",
+				"wdcb"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"inl",
+				"inline-table"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"padin",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"te",
+				"text-muted"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"background-si",
+				"background-position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"on",
+				"onclick\tAttr"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"heigh",
+				"height"
+			],
+			[
+				"size",
+				"background-size"
+			],
+			[
+				"height",
+				"max-height"
+			],
+			[
+				"de",
+				"device-width"
+			],
+			[
+				"si",
+				"background-size"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"left",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "meta.html",
+			"settings":
+			{
+				"buffer_size": 2587,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<!--meta -->"
+			}
+		},
+		{
+			"file": "Theindex.html",
+			"settings":
+			{
+				"buffer_size": 13204,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18969,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nav.js",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web"
+	],
+	"file_history":
+	[
+		"/C/Users/prashanth/Downloads/index (6).html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/load.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/xbox.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/index.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/laptrans.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/movie.html",
+		"/C/Users/prashanth/Downloads/movie (2).html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/ps4.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/1.5c.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/lol.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/ps4.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/cartrans.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/rem.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/test.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/add.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/pay.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/checkout.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/process.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/mobiletrans.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/25k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/10k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/mob.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/testmail.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/main.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/instyle.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/english.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/processmob.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/processbox.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/10l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/80k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/mail.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/webmail",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/hello.py",
+		"/C/wamp/www/index.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/apps.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/1l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/2l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/4l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/redirect.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/biketrans.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/5l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/20l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/35l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/50l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/boot.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/pg.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/tv.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/nav.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/anime.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/sub.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/pc.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/tamil.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/hindi.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/droid.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/processlap.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/processcar.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/processbike.php",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/25kplus.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/test.txt",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/15k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/30k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/50k.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/techno/web/tech.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/techno/web/prog.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/techno/web/first.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/hover.css",
+		"/C/Users/prashanth/Downloads/1.5c.html",
+		"/C/Users/prashanth/Downloads/10l.html",
+		"/C/Users/prashanth/Downloads/20l.html",
+		"/C/Users/prashanth/Downloads/35l.html",
+		"/C/Users/prashanth/Downloads/50l.html",
+		"/C/Users/prashanth/Downloads/5l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/dialog.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/boot.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/bike1l.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/music.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/page.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/try.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/ch.html",
+		"/C/a/djangotest/djangotest/templates/home.html",
+		"/C/a/djangotest/djangotest/djangotest/settings.py",
+		"/C/a/djangotest/djangotest/djangotest/urls.py",
+		"/C/a/djangotest/djangotest/new/views.py",
+		"/C/a/djangotest/djangotest/djangotest/templates/home.html",
+		"/C/a/djangotest/djangotest/templates/pg.css",
+		"/C/a/djangotest/djangotest/templates/load.js",
+		"/C/a/djangotest/djangotest/new/admin.py",
+		"/C/a/djangotest/djangotest/new/models.py",
+		"/C/a/djangotest/djangotest/new/tests.py",
+		"/C/a/djangotest/djangotest/new/Templates/home.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/1.5c",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/loado.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/remote.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/1.5cx.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/lightbox.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/zoom.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/inde",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/savn",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/englishx.html",
+		"/H/top10/web/music.html",
+		"/H/top10/web/instyle.css",
+		"/H/top10/web/xboxx.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/xboxx.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/star.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/lol.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/chck.html",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/cmt.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/styles.css",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/script.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/test.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/webUpdate.js",
+		"/C/Users/prashanth/Documents/NetBeansProjects/top10/web/fb.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/page.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/pc.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/ps4.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/xbox.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/index.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/music.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/load.js",
+		"/C/Users/prashanth/Documents/top10/top10/trail/webUpdate.js",
+		"/C/Users/prashanth/Documents/top10/top10/trail/test.js",
+		"/C/Users/prashanth/Documents/top10/top10/trail/fb.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/chck.html",
+		"/C/Users/prashanth/Documents/top10/top10/trail/pg.css",
+		"/C/Users/prashanth/Documents/top10/top10/trail/main.css",
+		"/C/Users/prashanth/Documents/top10/top10/trail/jp_ex/WebPageDynamic/web/webUpdate.js",
+		"/C/Users/prashanth/Documents/top10/top10/trail/cmt.css",
+		"/C/Users/prashanth/Documents/top10/top10/trail/coreeng.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".he_",
+			".he",
+			".hr",
+			"\"overlay\"",
+			"25",
+			"=\"panel\"",
+			"<section",
+			"http://img.fkcdn.com/image/mobile/a/h/q/samsung-galaxy-on8-na-125x125-imaemrwgsuxcubqh.jpeg",
+			"amp",
+			"&nbsp;42",
+			"</div>\n \n<h4>",
+			"</div><h4>",
+			"bitch",
+			".logo",
+			"<div class=\"row\">",
+			"<hr class=\"ruler\">",
+			"<hr>",
+			"</h4>\n\n</div>",
+			"<div class=\"box\">\n",
+			"<b>",
+			"–",
+			",",
+			"‘",
+			"’",
+			"frameborder=\"0\"",
+			"<iframe",
+			"iframe",
+			"\"",
+			".new",
+			"\"box\"",
+			"box",
+			".pl",
+			"2 container",
+			"top",
+			".box",
+			"-moz-",
+			"webkit",
+			"img\\",
+			"img",
+			"async",
+			".se-pre-con {\n  position: fixed;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  z-index: 9999;\n\n  background: url(img/load.gif) center no-repeat #fff;\n  background-color: #1c2126;\n}",
+			"engilsh",
+			"\\4",
+			"\\5",
+			"\\6",
+			"\\7",
+			"\\8",
+			"\\9",
+			"3a",
+			"11b",
+			"11a",
+			"letter",
+			"nav",
+			"navbar",
+			"<div class=\"rtna\"><input type=\"number\" class=\"rating\" id=\"test\" name=\"test\" data-min=\"1\" data-max=\"5\" value=\"0\"></div>\n",
+			"\"box1\"",
+			"gre",
+			".b",
+			"data-width=\"400\"",
+			"<div class=\"rtnc\"><input type=\"number\" class=\"rating\" id=\"test\" name=\"test\" data-min=\"1\" data-max=\"5\" value=\"0\"></div>",
+			"color:",
+			"color",
+			"<iframe",
+			"<ifram",
+			"<iframe",
+			".blk",
+			".he",
+			".lo",
+			".he",
+			"February",
+			"frameborder=\"0\"",
+			".lo",
+			"<div class=\"rtn\"><input type=\"number\" class=\"rating\" id=\"test\" name=\"test\" data-min=\"1\" data-max=\"5\" value=\"0\"></div>",
+			"<div\n  class=\"fb-like\"\n  data-share=\"true\"\n  data-width=\"450\"\n  data-show-faces=\"true\">\n</div>",
+			"<div class=\"rtn\"><input type=\"number\" class=\"rating\" id=\"test\" name=\"test\" data-min=\"1\" data-max=\"5\" value=\"0\"></div>",
+			"February",
+			"35vw\"\"",
+			"e rs",
+			"rs",
+			" cnn\"",
+			"image-responsive",
+			"rs",
+			".rs",
+			"35vw\"\"",
+			"affix",
+			"letter",
+			"col-md-6",
+			"img-responsive ",
+			".lft",
+			"img-responsive",
+			"col-md-3",
+			".cont",
+			"image-responsive",
+			".he",
+			"navbar",
+			"image-responsive",
+			"rs",
+			".he",
+			"navbar-default",
+			"nav",
+			"35vw\"\"",
+			"v8.jpe",
+			"m/th",
+			"\"White\"",
+			"#000000",
+			"cont",
+			"\"#800000\"",
+			"\"#660000\"",
+			"\"red\"",
+			"<iframe",
+			"lft",
+			"class=\"new\"",
+			"id=\"new\"",
+			",.hovered",
+			",hovered",
+			"class=\"hovereffect\"",
+			"effect",
+			"<img src=\"img/play.png\" ",
+			"class=\"pl\"",
+			"class=\"plt\"",
+			"<h4 style=\"margin-left:285px;margin-top:-27px\"",
+			"<h4 style=\"margin-left:345px;margin-top:0px;margin-right:0px\"",
+			"<img src=\"img/play.png\"",
+			"<iframe",
+			"n cn",
+			"cn",
+			"n cn",
+			"e cn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"15",
+			"10",
+			"=\"panell\"",
+			"<section class=\"panel\"",
+			" ",
+			"<div><span class=\"glyphicon glyphicon-thumbs-up lik\"><font class=\"num\">&nbsp;42</font></span>\n<h4>",
+			"<span class=\"glyphicon glyphicon-thumbs-up lik\"><font class=\"num\">&nbsp;42</font></span>",
+			"1",
+			"<hr class=\"r\">\n<div class=\"row\">",
+			"<hr>",
+			"<hr class=\"ruler\">",
+			"</h4>\n\n</div><hr>",
+			"</h4>\n\n</div></hr>",
+			"<div class=\"box\">\n<hr class=\"ruler\">",
+			"<div class=\"box\">\n<hr>",
+			"-",
+			",",
+			"'",
+			"frameborder=\"6\"",
+			"<iframe class=\"rs\"",
+			"iframe class=\"rs\"",
+			"'",
+			"\"box1\"",
+			"box1",
+			"2",
+			"img/",
+			" ",
+			"\\5",
+			"\\6",
+			"\\7",
+			"\\8",
+			"\\9",
+			"\\10",
+			"4a",
+			"3b",
+			"3a",
+			" ",
+			"\"box\"",
+			"data-width=\"800\"",
+			" ",
+			"<iframe class=\"rs\"",
+			"<iframe",
+			"<ifram class=\"rs\"",
+			"March",
+			"frameborder=\"6\"",
+			" ",
+			"March",
+			"35vw\"",
+			"e rs \"",
+			"rs \"",
+			" ",
+			"image-responsive rs",
+			"35vw\"",
+			"col-md-5",
+			"",
+			"img-responsive siz",
+			"col-md-6",
+			"image-responsive rs",
+			"navbar-inverse",
+			"35vw\"",
+			"v8.jpg",
+			"m</th",
+			"#666600",
+			"white",
+			"#b30000",
+			"\"#800000\"",
+			"\"#660000\"",
+			"<iframe class=\"rs\"",
+			"lft new",
+			"",
+			"class=\"new\"",
+			" ",
+			"class=\"hovereffect\" id=\"new\"",
+			"<img src=\"img/play.png\" class=\"pl\"",
+			"class=\"plt\"",
+			"class=\"pl\"",
+			"<h4 style=\"margin-left:285px;margin-top:-27px\" class=\"plt\"",
+			"<h4 style=\"margin-left:345px;margin-top:0px;margin-right:0px\" class=\"plt\"",
+			"<img src=\"img/play.png\" class=\"pl\"",
+			"<iframe class=\"rs\"",
+			"n",
+			"e cnn",
+			".cnn",
+			"class=\"image-responsive cn",
+			"<img src=\"img\\snap.png\" class=\"image-responsive cn\" width=\"120vw\" height=\"35vw\">",
+			"<img src=\"img\\flip.png\" class=\"image-responsive cn\" width=\"120vw\" height=\"35vw\">",
+			"<img src=\"img\\amaz.png\" class=\"image-responsive cn\" width=\"120vw\" height=\"35vw\">",
+			"",
+			"@media handheld {\n\n  html, body {\n    font: 12px/15px sans-serif;\n    background: #fff;\n    padding: 3px;\n    color: #000;\n    margin: 0;\n\n    }\n  #sidebar, #footer {\n    display: none;\n    }\n  h1, h2, h3, h4, h5, h6 {\n    font-weight: normal;\n    }\n  #content img { \n    max-width: 25px;\n    }\n  .center {\n    width: 100% !important;\n    text-align: center;\n    }\n  a:link, a:visited {\n    text-decoration: underline;\n    color: #0000CC;\n    }\n  a:hover, a:active {\n    text-decoration: underline;\n    color: #660066;\n    }\n  .logo{\n    width: 20px;\n  }\n  .lo img{\n    width: 20px;\n  }\n  .wdcb{\n    max-width: 20%;\n  }\n  img{\n    display: none;\n  }\n    .wdc{\n    display: none;\n  }\n  .hed{\n    display: none;\n  }\n  nav{\n    margin-bottom: 5vh;\n  }\n}\n\n@media only screen and (max-device-width: 600px) { \n\n  html {\n    -webkit-text-size-adjust: none;\n    }\n     .wdcb{\n    max-width: 100%;\n    /*margin-left: 6vw;*/\n  }\n  .wdc{\n    display: none;\n  }\n  .hed{\n    display: none;\n  }\n  nav{\n    margin-bottom: 5vh;\n  }\n  .logo{\n    display: block;\n    margin-top: 0vh;\n    margin-bottom: 0vh;\n\n  }\n  .he{\n    margin-top: -7vh;\n  }\n  .wrapper{\n    background-color: silver;\n  }\n}\n",
+			"<link rel=\"stylesheet\" href=\"pg.css\" media=\"only screen and (min-width:601px)\">",
+			"col-sm-12",
+			"000000",
+			"\\y",
+			"2l\\",
+			"<a href=\"index.html\" ><img    src=\"img\\logo\\logo7.png\" class=\"logo\"> </a>",
+			"<li class=\"active \"><a href=\"index.html\">Home</a></li> ",
+			" ",
+			"\"bgcm\"",
+			"\"bgc\"",
+			"\"bgcl\"",
+			" ",
+			"GG4",
+			"(GG3)",
+			" ",
+			"15k\\f",
+			"15k\\",
+			" ",
+			"><",
+			" ",
+			"bgcl",
+			"\\80k\\o",
+			"><",
+			" ",
+			"\"wdm\"",
+			"\"bgcl\"",
+			" ",
+			"><",
+			" ",
+			"\"bgcl\"",
+			" ",
+			"frameborder=\"6\"",
+			"14.jpeg",
+			"\\",
+			"\\mov\\",
+			"Crew:",
+			"Genre:",
+			"\\30k\\t",
+			"\"wdm\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "meta.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1840,
+								1840
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!--meta -->",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Theindex.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13204,
+								13204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4511.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7876,
+								7876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "nav.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "tencyclopedia.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Tencyclopedia\\subltencyclo.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
